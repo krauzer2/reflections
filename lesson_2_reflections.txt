@@ -2,3 +2,17 @@ How is the staging area different from the working directory and the repository?
 	
 	It shows the files that are (probably) modified and are the reason for the commit (though probably all files are to be committed, modified or not). working directory shows the contemplary files. repository probably is the super set. 
 	Helps prepare the commit
+
+How can you use the staging area to make sure you have one commit per logical change?
+	
+	with git status i can view the files to be committed and make sure they are of the same logical change(?)
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+	testing new ideas on the code or experimenting or side projects on the code
+
+How do the diagrams help you visualize the branch structure?
+	They inform us of the commit history of each branch and common nodes between them as well as which commit is accessible from which branch
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+	apply both brnach modifications to one of the branches(or new one). new commit has code from both branches (2 parents)
